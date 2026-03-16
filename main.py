@@ -13,7 +13,7 @@ st.set_page_config(page_title="AI Resume Critiquer", page_icon="ðŸ“ƒ", layo
 st.title("AI Resume Critique")
 st.markdown("Upload your resume and get AI-powered feedback tailored to your needs!")
 
-GEMINI_API_KEY = os.getenv("AIzaSyA3JiW60h7KN1XJ5CBsZ0m2CaLtNmFNp6U")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 
 
